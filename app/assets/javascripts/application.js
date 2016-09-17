@@ -14,4 +14,9 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-material-design
 //= require_tree .
+
+$(document).on('ready page:load', function() {
+  $.material.init();
+});
